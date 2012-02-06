@@ -17,6 +17,8 @@
 		0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E514BEB491006BB5E1 /* MainStoryboard.storyboard */; };
 		0EE5A6EA14BEB491006BB5E1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */; };
 		0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */; };
+		949BDAF914DF569B0021B96A /* 3kenka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 949BDAF814DF569B0021B96A /* 3kenka.jpg */; };
+		949BDAFB14DF577E0021B96A /* kenka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 949BDAFA14DF577E0021B96A /* kenka.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0EE5A6E914BEB491006BB5E1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0EE5A6EB14BEB491006BB5E1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE5A6EC14BEB491006BB5E1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		949BDAF814DF569B0021B96A /* 3kenka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3kenka.jpg; sourceTree = "<group>"; };
+		949BDAFA14DF577E0021B96A /* kenka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kenka.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		0EE5A6C414BEB490006BB5E1 = {
 			isa = PBXGroup;
 			children = (
+				949BDAFA14DF577E0021B96A /* kenka.jpg */,
+				949BDAF814DF569B0021B96A /* 3kenka.jpg */,
 				0EE5A6D914BEB490006BB5E1 /* Restaurants */,
 				0EE5A6D214BEB490006BB5E1 /* Frameworks */,
 				0EE5A6D014BEB490006BB5E1 /* Products */,
@@ -160,6 +166,8 @@
 			files = (
 				0EE5A6DE14BEB490006BB5E1 /* InfoPlist.strings in Resources */,
 				0EE5A6E714BEB491006BB5E1 /* MainStoryboard.storyboard in Resources */,
+				949BDAF914DF569B0021B96A /* 3kenka.jpg in Resources */,
+				949BDAFB14DF577E0021B96A /* kenka.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
