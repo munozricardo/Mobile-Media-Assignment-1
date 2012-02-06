@@ -100,6 +100,9 @@ Note: Reservations are not accepted on Fridays and Saturdays." lineBreakMode="ta
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kLE-FL-G1U" kind="push" id="2Z1-JR-xSY"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Cuisine: Japanese/Sushi
 Price Range: $$
@@ -121,6 +124,43 @@ Customer Rating: 8 out of 10
                 </viewController>
             </objects>
             <point key="canvasLocation" x="924" y="64"/>
+        </scene>
+        <scene sceneID="xVv-Iw-NfE">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBg-1k-PBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="kLE-FL-G1U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fXR-zM-zOg">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Ck4-mV-wjo">
+                                <rect key="frame" x="20" y="57" width="280" height="331"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">It's like I walked into Ueno...
+by Max
+This place has the best Japanese vibe ever. The pachinko machines were a nice touch. The food is great, the prices are fair, service gets iffy when the place is busy, but otherwise, it's awesome.
+
+authentic japanese food
+by nagoya0
+The service is best as they can be when its busy. The prices are excellent for the portions you get. Overall its definatly worth while to eat here and come again if your from the area. Bring everyone you know they cator to everyone tastes!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="tRB-gE-5W7">
+                                <rect key="frame" x="128" y="20" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kenka" id="XSH-9z-Re1"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="923" y="644"/>
         </scene>
     </scenes>
     <resources>
