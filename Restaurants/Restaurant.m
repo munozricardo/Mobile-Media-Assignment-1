@@ -40,6 +40,11 @@
     
     // *********************   
     // Your code goes here
+    
+    dinnerPrice = (numberOfGuests * entreePrice) + (numberOfGuests * dessertPrice) + (numberOfGuests/2 * appetizerPrice) + (numberOfGuests/4 * winePrice);
+    tip = dinnerPrice * tipRate;
+    taxes = dinnerPrice * taxRate;
+    
     // *********************
     
     
